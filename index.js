@@ -7,7 +7,7 @@ dodger.style.bottom = "0px";
 
 document.addEventListener('keydown', function(e) {
   if (e.which === 39) {
-    var rightNumbers = dodger.style.left.replace('px', '')
+    var rightNumbers = dodger.style.right.replace('px', '')
     var right = parseInt(rightNumbers, 10)
  
     dodger.style.right = `${left - 1}px`
