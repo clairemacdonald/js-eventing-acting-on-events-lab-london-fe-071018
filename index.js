@@ -11,7 +11,7 @@ document.addEventListener('keydown', function(e) {
     var left = parseInt(leftNumbers, 10)
  
     dodger.style.left = `${left + 1}px`
-    
+  }
     
       if (e.which === 39) {
     var rightNumbers = dodger.style.right.replace('px', '')
